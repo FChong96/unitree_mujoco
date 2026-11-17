@@ -1,5 +1,9 @@
 
 # 介绍
+
+R1-A5-D + 双 Dex1-1 的模型、启动方式和 HG DDS 适配见
+[R1-A5-D 仿真说明](R1_A5_D.zh-CN.md)。
+
 ## Unitree mujoco
 `unitree_mujoco` 是基于 `Unitree sdk2` 和 `mujoco` 开发的仿真器。用户使用 `Unitree_sdk2`、 `unitree_ros2` 和 `unitree_sdk2_python` 开发的控制程序可以方便地接入该仿真器，实现仿真到实物的开发流程。仓库别基于 c++ 和 python 实现了两个版本的仿真器， 其结构大致如下图所示:
 

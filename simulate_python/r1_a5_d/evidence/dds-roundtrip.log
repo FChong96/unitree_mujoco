@@ -1,0 +1,65 @@
+DDS simulation: interface=lo domain=1, HG sparse slots, mode_machine=10
+{
+  "time_s": 6.0,
+  "nq": 29,
+  "nv": 29,
+  "actuators": 21,
+  "bodies": 40,
+  "max_abs_qvel": 0.011908247947663975,
+  "warnings": {},
+  "joints": {
+    "Left_Wheel_joint": -2.6696698000679114e-21,
+    "Right_Wheel_joint": -2.6696698000679114e-21,
+    "lift_stage1_joint": 0.24999991449563982,
+    "lift_stage2_joint": 0.2499999144888778,
+    "waist_yaw_joint": 4.933767046523256e-06,
+    "left_shoulder_pitch_joint": 1.8600243910811482e-05,
+    "left_shoulder_roll_joint": 5.898785281045952e-06,
+    "left_shoulder_yaw_joint": 1.0957169028296743e-05,
+    "left_elbow_joint": 5.456182033457361e-06,
+    "left_wrist_roll_joint": -4.016118107925626e-06,
+    "left_dex1_finger_joint_1": 0.006391681745472473,
+    "left_dex1_finger_joint_2": 0.006391681901697606,
+    "right_shoulder_pitch_joint": -1.9163623189539177e-05,
+    "right_shoulder_roll_joint": 1.7544327110550076e-05,
+    "right_shoulder_yaw_joint": -2.3029273061167508e-05,
+    "right_elbow_joint": -1.672109869493354e-05,
+    "right_wrist_roll_joint": -0.06920984881856591,
+    "right_dex1_finger_joint_1": 0.03157137355351802,
+    "right_dex1_finger_joint_2": 0.031571408554856094,
+    "head_pitch_joint": 8.837731595542379e-08,
+    "head_yaw_joint": 1.0540507647356767e-07
+  },
+  "physics_wall_time_s": 9.069344737974461,
+  "physics_steps_per_wall_second": 330.784647256668,
+  "dds": {
+    "received": 364,
+    "rejected": 0,
+    "watchdog_hold": true
+  }
+}
+{
+  "interface": "lo",
+  "domain": 1,
+  "sent": 398,
+  "received": 734,
+  "invalid_state_crc": 0,
+  "ranges": {
+    "19": [
+      -2.5342618755530566e-05,
+      2.187009340559598e-05
+    ],
+    "26": [
+      -0.18773648142814636,
+      0.196733757853508
+    ],
+    "31": [
+      0.6585366129875183,
+      4.199650287628174
+    ],
+    "33": [
+      0.6585366129875183,
+      4.106121063232422
+    ]
+  }
+}

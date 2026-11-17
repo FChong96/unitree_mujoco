@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-17",
+  "base_commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+  "python": "3.12.3",
+  "packages": {
+    "mujoco": "3.3.7",
+    "numpy": "2.5.5",
+    "cyclonedds": "0.10.2",
+    "Pillow": "12.0.0",
+    "opencv-python": "4.10.0.84",
+    "unitree_sdk2py": "1.0.1"
+  },
+  "repository_assets": {
+    "mesh_files": 33,
+    "external_model_symlinks": false
+  },
+  "automated_tests": {
+    "passed": 4,
+    "log": "tests.log"
+  },
+  "dds_roundtrip": {
+    "passed": true,
+    "interface": "lo",
+    "domain": 1,
+    "sent": 398,
+    "received_states": 734,
+    "invalid_state_crc": 0,
+    "server_received": 364,
+    "watchdog_hold": true,
+    "client_report": "dds-client.json",
+    "server_report": "dds-server.json"
+  },
+  "source_sha256": {
+    "simulate_python/r1_a5_d/build_model.py": "8525cc1ceee7e235f5d535055e076fe1d28919f3daa1631815948a8e3713234f",
+    "simulate_python/r1_a5_d/client.sh": "41b14dbdb591bef6c6dc0d738ceab0fec92383d3b7ca2cf5ad45d0f278aa8262",
+    "simulate_python/r1_a5_d/dds_bridge.py": "38eecf202ce9be30180dc41ffd9685ce3179730260059556dac39d8e1b4a3645",
+    "simulate_python/r1_a5_d/dds_demo.py": "35592c9f339ee7f27d048234d92c3882ebead4183b559ba88ddd469ba8416cb9",
+    "simulate_python/r1_a5_d/env.sh": "345f428ca712459ab716ab1eac059d67a5a2676d496eede8682f8f01acfdf336",
+    "simulate_python/r1_a5_d/requirements.txt": "9877fd7dd6e2a171bedcfeafcece8e62475aea10a1dca7f99fb4e4bd1cb41813",
+    "simulate_python/r1_a5_d/run.py": "c0a24d6b91dad8e8371f01d3d8357c73d6d30e730d8f3036309fab25038be3fa",
+    "simulate_python/r1_a5_d/run.sh": "dff58a12472e7494a0b53942e0c043a91b39b543b4713137706b7ee9779897dd",
+    "simulate_python/r1_a5_d/setup.sh": "fc94c700a4b3dd1b4c84e8f716a8e0c5f9b7a46da1328cba7cdc5c0698348e7e",
+    "simulate_python/r1_a5_d/simulation.py": "4de80198a24e98c4716ae1544c1af7e2e12e3ef31bac2bd127e790972abf052a",
+    "simulate_python/r1_a5_d/tests/dds_roundtrip.py": "2af47d0ea365d21c912f2c93c0ec994cbb9280e3b9bef19a2fb4e2c9d59f51dc",
+    "simulate_python/r1_a5_d/tests/test_bridge.py": "9a91b0b8a43c7688cbc1b6fe29c9bee8a99239e75e74df792f16af8115c0b2c7",
+    "simulate_python/r1_a5_d/tests/test_simulation.py": "ec688e2b92d8bf16deb1ca3266b9c63f5f09bafea370d13284b3c61fee464db8",
+    "unitree_robots/r1_a5_d/scene.xml": "82ac6cd628c70e309c294854b5cdf8b0668edc7f79c143477aba8cbd853d6408",
+    "unitree_robots/r1_a5_d/scene_mobile.xml": "3700a0ba0e59a02b16cf87ceb71a68366d94c124d0e28dcca3799c4d3f9bf96d"
+  },
+  "limits": [
+    "Local component assembly; gripper mounting and raw position-to-stroke mapping uncalibrated.",
+    "Ground and finger contacts approximate; full-body collision and reliable grasping not validated.",
+    "DDS wheel/lift slots and high-level robot services not implemented.",
+    "GUI viewer needs a display; visual verification used EGL offscreen rendering."
+  ],
+  "offline-demo": {
+    "passed": true,
+    "simulation_time_s": 5.0,
+    "mujoco_warnings": {},
+    "report": "offline-demo.json"
+  },
+  "mobile-settle": {
+    "passed": true,
+    "simulation_time_s": 10.0,
+    "mujoco_warnings": {},
+    "report": "mobile-settle.json"
+  },
+  "isolated_staged_export": {
+    "passed": true,
+    "checks": [
+      "no symlinks",
+      "deterministic model regeneration",
+      "repository-root launcher without surrounding workspace"
+    ]
+  }
+}

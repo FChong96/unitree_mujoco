@@ -1,0 +1,5 @@
+mujoco==3.3.7
+numpy==2.5.5
+cyclonedds==0.10.2
+Pillow==12.0.0
+opencv-python==4.10.0.84

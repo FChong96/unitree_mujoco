@@ -1,0 +1,9 @@
+test_reject_bad_crc_and_wrong_machine_and_snapshot_slots (test_bridge.BridgeTests.test_reject_bad_crc_and_wrong_machine_and_snapshot_slots) ... ok
+test_dual_gripper_open_close_mimic_and_independence (test_simulation.ModelTests.test_dual_gripper_open_close_mimic_and_independence) ... ok
+test_geometry_inertia_axes_and_limits_match_source (test_simulation.ModelTests.test_geometry_inertia_axes_and_limits_match_source) ... ok
+test_sparse_routing_crc_independent_command_validation_watchdog_and_disable (test_simulation.ModelTests.test_sparse_routing_crc_independent_command_validation_watchdog_and_disable) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 3.627s
+
+OK

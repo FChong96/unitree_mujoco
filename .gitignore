@@ -4,3 +4,5 @@
 **/log/
 **/install/
 simulate/mujoco
+.venv-r1-a5-d/
+.deps/

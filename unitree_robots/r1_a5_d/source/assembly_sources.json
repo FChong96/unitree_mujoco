@@ -1,0 +1,31 @@
+{
+  "model": "r1_a5_d_with_dex1_1",
+  "kind": "local_component_assembly",
+  "official_complete_a5_d_model": false,
+  "calibrated_for_hardware": false,
+  "unitree_ros_commit": "4005a1b0c3f464f515f380be4145cc617fbca725",
+  "inputs": {
+    "unitreerobot/unitree_ros/robots/r1d_description/r1d.urdf": "39ad1a206c34c3deecd33745ccda0c0c94ece4195f674dfbaf950f567f08809c",
+    "unitreerobot/unitree_ros/robots/r1_a5_description/r1_a5.urdf": "5e593d507db903ed4200ad866009928520299602eb3df8367dc963a8c1d98675",
+    "unitreerobot/unitree_ros/robots/dexterous_hand_description/dex1_1/dex1_1.urdf": "17af519c155ee210cd21d17ee72398c2b67ed3fcb871f0696c6fced6d21f30f8"
+  },
+  "assumed_xacro_defaults": {
+    "hardware": "mock",
+    "interface": "eno2",
+    "log_path": "/tmp/r1-moveit-sdk.csv",
+    "base_z": "0.16",
+    "left_dex1_xyz": "0.145 0 0",
+    "right_dex1_xyz": "0.145 0 0",
+    "left_dex1_rpy": "0 0 0",
+    "right_dex1_rpy": "0 0 0",
+    "tcp_xyz": "0.12 0 0"
+  },
+  "lift_extension_per_stage_m": 0.25,
+  "finger_displacement_m": 0.0,
+  "notes": [
+    "D platform reused from official R1-A7-D model.",
+    "A5 arm joint definitions unchanged; no extra pitch/yaw actuators added.",
+    "Gripper mount and TCP are configurable uncalibrated references.",
+    "Passive D platform/gripper state defaults are offline assumptions, not sensor feedback."
+  ]
+}
